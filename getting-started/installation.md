@@ -2,7 +2,7 @@
 
 Leverage CommandBox to install into your ColdBox appL
 
-```javascript
+```bash
 # Latest version
 install cbi18n
 
