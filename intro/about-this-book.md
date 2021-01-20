@@ -1,11 +1,10 @@
 # About this Book
 
-## About This Book <a id="about-this-book"></a>
-
-The source code for this book is hosted in GitHub: [https://github.com/ortus-docs/cbi18n-docs](https://github.com/ortus-docs/cbsecurity-docs). You can freely contribute to it and submit pull requests. The contents of this book is copyright by [Ortus Solutions, Corp](http://www.ortussolutions.com/) and cannot be altered or reproduced without author's consent. All content is provided _"As-Is"_ and can be freely distributed.
+The source code for this book is hosted in GitHub: [https://github.com/ortus-docs/cbi18n-docs](https://github.com/ortus-docs/cbi18n-docs). You can freely contribute to it and submit pull requests. The contents of this book is copyright by [Ortus Solutions, Corp](http://www.ortussolutions.com/) and cannot be altered or reproduced without author's consent. All content is provided _"As-Is"_ and can be freely distributed.
 
 * The majority of code examples in this book are done in `cfscript`.
-* The majority of code generation and running of examples are done via **CommandBox**: The ColdFusion \(CFML\) CLI, Package Manager, REPL - [https://www.ortussolutions.com/products/commandbox](https://www.ortussolutions.com/products/commandbox)​
+* The majority of code generation and running of examples are done via **CommandBox**: The ColdFusion \(CFML\) CLI, Package Manager, REPL - [https://www.ortussolutions.com/products/commandbox](https://www.ortussolutions.com/products/commandbox)
+* All ColdFusion examples designed to run on the open source Lucee Platform or Adobe ColdFusion 11+
 
 ## External Trademarks & Copyrights <a id="external-trademarks-and-copyrights"></a>
 
@@ -17,7 +16,7 @@ The information in this book is distributed “as is”, without warranty. The a
 
 ## Contributing <a id="contributing"></a>
 
-We highly encourage contribution to this book and our open source software. The source code for this book can be found in our [GitHub repository](https://github.com/ortus-docs/cbsecurity-docs) where you can submit pull requests.
+We highly encourage contribution to this book and our open source software. The source code for this book can be found in our [GitHub repository](https://github.com/ortus-docs/cbi18n-docs) where you can submit pull requests.
 
 ## Charitable Proceeds <a id="charitable-proceeds"></a>
 
@@ -25,9 +24,9 @@ We highly encourage contribution to this book and our open source software. The 
 
 ### Shalom Children's Home <a id="shalom-childrens-home"></a>
 
-​![](https://raw.githubusercontent.com/ortus-docs/logbox-docs/master/images/shalom.jpg)​
+![Shalom Children&apos;s Home](../.gitbook/assets/image%20%282%29.png)
 
-**Shalom Children’s Home** is one of the ministries that is dear to our hearts located in El Salvador. During the 12 year civil war that ended in 1990, many children were left orphaned or abandoned by parents who fled El Salvador. The Benners saw the need to help these children and received 13 children in 1982. Little by little, more children came on their own, churches and the government brought children to them for care, and the Shalom Children’s Home was founded.
+Shalom Children’s Home \([https://www.harvesting.org/](https://www.harvesting.org/)\) is one of the ministries that is dear to our hearts located in El Salvador. During the 12 year civil war that ended in 1990, many children were left orphaned or abandoned by parents who fled El Salvador. The Benners saw the need to help these children and received 13 children in 1982. Little by little, more children came on their own, churches and the government brought children to them for care, and the Shalom Children’s Home was founded.
 
 Shalom now cares for over 80 children in El Salvador, from newborns to 18 years old. They receive shelter, clothing, food, medical care, education and life skills training in a Christian environment. The home is supported by a child sponsorship program.
 

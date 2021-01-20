@@ -26,7 +26,7 @@ moduleSettings = {
 			"logUnknownTranslation" : true,
 			// A-la-carte resources to load by name
 			"resourceBundles"       : {},
-			// You can override the ResourceService with your own, just add the WireBox ID
+			// Your own CFC instantiation path
 			"customResourceService" : ""
 		}
 		
