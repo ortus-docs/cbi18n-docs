@@ -15,15 +15,14 @@
 * [Installation](getting-started/installation.md)
 * [Configuration](getting-started/configuration.md)
 
----
+## Usage
 
-* [Configuration With No Resource Bundles](configuration-with-no-resource-bundles.md)
-* [Coding for i18n](coding-for-i18n/README.md)
-  * [Java vs JSON resources](coding-for-i18n/java-vs-json-resources.md)
-  * [Property inheritance](coding-for-i18n/property-inheritance.md)
-  * [Resource Bundle Tools](coding-for-i18n/resource-bundle-tools.md)
-  * [Custom Resource Services](coding-for-i18n/custom-resource-services.md)
-* [How do I change Locales?](how-do-i-change-locales.md)
-* [Best Practices](best-practices.md)
-* [Resources](resources.md)
+* [Coding for i18n](usage/coding-for-i18n/README.md)
+  * [Java vs JSON resources](usage/coding-for-i18n/java-vs-json-resources.md)
+  * [Property inheritance](usage/coding-for-i18n/property-inheritance.md)
+  * [Resource Bundle Tools](usage/coding-for-i18n/resource-bundle-tools.md)
+  * [Custom Resource Services](usage/coding-for-i18n/custom-resource-services.md)
+* [How do I change Locales?](usage/how-do-i-change-locales.md)
+* [Best Practices](usage/best-practices.md)
+* [Resources](usage/resources.md)
 
