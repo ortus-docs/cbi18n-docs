@@ -46,6 +46,16 @@ function getResource(
 
 // Alias to getResource
 function $r()
+
+/**
+ * Get Access to the i18n Model
+ */
+function i18n()
+
+/**
+ * Get the resource service model
+ */
+function resourceService()
 ```
 
 ## Bundle Aliases

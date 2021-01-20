@@ -4,8 +4,12 @@ If you elect not to use property files for your resource bundles, or need to exp
 
 To begin, create a custom resource service which extends the core i18n resource service:
 
-```text
-component name="MyCustomResourceService" extends="cbi18n.models.ResourceService" singleton=true{
+```javascript
+component 
+  name="MyCustomResourceService" 
+  extends="cbi18n.models.ResourceService" 
+  singleton=true{
+  
   property name="Controller" inject="coldbox";
   property name="Wirebox" inject="wirebox";
 
@@ -14,10 +18,10 @@ component name="MyCustomResourceService" extends="cbi18n.models.ResourceService"
 
 To override the resource bundle used, you would declare a new `loadResourceBundle` method. To override the implementation of the `getResource( i18nResourceLabel )` you would declare a new `getResource` method. An example, using your database to retrieve an i18n resource bundle:
 
-```text
+```javascript
 public void function loadBundle( 
-        required string rbLocale=VARIABLES.i18n.getfwLocale() 
-) output="false"{
+    required string rbLocale=VARIABLES.i18n.getfwLocale() 
+){
     var bundles = "";
 
     // Lazy Load?
@@ -44,7 +48,7 @@ public void function loadBundle(
 
 Lets say we want to account for a more complex metadata structure in our resource bundles. For example, allow a `draft` value to allow for administrators to see which items in our bundle are pending review but display the default value to the public. We might also want to add any new resource requests containing a default value as drafts in the system \(which we won't cover here\). For special circumstances, such as these, we would need to change the implementation of the `getResource` method to account for this draft functionality:
 
-```text
+```javascript
 public string function getResource(
     // The resource (key) to retrieve from the main loaded bundle.
     required any resource,

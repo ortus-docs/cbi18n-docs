@@ -10,7 +10,7 @@ Below you can see an example:
 ```javascript
 function changeLocale( event, rc, prc ){
     setFWLocale( rc.locale );
-    event.setNextEvent('main.home');
+    relocate('main.home');
 }
 ```
 
