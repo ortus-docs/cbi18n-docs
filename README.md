@@ -39,6 +39,14 @@ Apache License, Version 2.0.
 * Lucee 5+
 * Adobe ColdFusion 2016+
 
+
+
+### Discussion & Help
+
+ The Box products  community for further discussion and help can be found here:
+
+[https://community.ortussolutions.com/c/box-modules/cbi18n](https://community.ortussolutions.com/c/box-modules/cbi18n)
+
 ## Professional Open Source
 
 ![Ortus Solutions, Corp](.gitbook/assets/ortus-solutions-logo.png)
