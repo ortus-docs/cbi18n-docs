@@ -107,17 +107,25 @@ greeting=Hello {name}
 
 ## ColdBox Module Configuration
 
-Every ColdBox module has the i18n capabilities available to them as well.  They can use it to register their own resource bundles. The previous version allowed for a setting called `i18n` this is now called `cbi18n` to comply with the same global naming convention.  Just update your key root in your `Moduleconfig.cfc`
+Every ColdBox module has the i18n capabilities available to them as well.  They can use it to register their own resource bundles. The previous version allowed for a setting called `i18n` this is now called `cbi18n` to comply with the same global naming convention.  Just update your key root in your `Moduleconfig.cfc.`
 
 {% code title="ModuleConfig.cfc" %}
 ```javascript
 cbi18n = {
 		resourceBundles = {
-			"module@test1" = "#moduleMapping#/includes/module"
+			"bundleIdentifier" = "#moduleMapping#/includes/module"
 		}
 };
 ```
 {% endcode %}
+
+The keys in the `resourceBundles` struct represent the `bundle` that can be passed to `getResource` or appended on the `resource` string with an `@` sign.
+
+```javascript
+i18n.getResource( "myTranslationKey@bundleIdentifier" );
+// same as
+i18n.getResource( resource = "myTranslationKey", bundle = "bundleIdentifier" );
+```
 
 ## Configuration With No Resource Bundles
 
