@@ -26,7 +26,18 @@ This module will register the following methods in your handlers/interceptors/la
 * `i18n()` gets the i18n Model
 * `resourceService()` gets the Resource Service
 
+### Delegates
+
+You can use the `Resourceful@cbi18n` delegate to add resource traits to your objects and access to the `getResource()` method.
+
+```javascript
+component name="SecurityService" delegates="Resourceful@cbi18n" {
+
+   // Then just use the getResource() method
+}
+```
+
 ## System requirements
 
 * Lucee 5+
-* Adobe ColdFusion 2016+
+* Adobe ColdFusion 2018+

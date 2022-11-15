@@ -15,6 +15,7 @@ The `cbi18n` module will enhance your ColdBox applications with i18n capabilitie
 * Inherited resource bundles e.g   `main.properties`, `main_en.properties` or`main_en_US.properties`.
 * Many locale-specific functions:  date and time formats and parsing, country codes,  currency symbols
 * Custom resource services
+* ColdBox 7 Delegates
 
 ## Versioning
 

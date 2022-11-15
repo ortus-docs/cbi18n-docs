@@ -7,7 +7,7 @@ There are two main models that are registered for you with the following WireBox
 * `i18n@cbi18n` : Service that tracks user's locale, changing of locales, and a plethora of localized functions.  It also bootstraps the resource bundles used in the application.
 * `ResourceService@cbi18n` In charge of retrieving language keys from locale specific resource bundles, whether they are Java property files or JSON bundles.
 
-They can either be injected or called via our mixin helpers:
+They can either be injected, called via our mixin helpers or added via our ColdBox Delegates:
 
 ```javascript
 // Mixins
@@ -17,6 +17,14 @@ resourceService()
 // Injection
 property name="i18n" inject="i18n@cbi18n";
 property name="resourceService" inject="resourceService@cbi18n"
+
+// Delegates
+component delegates="Resourceful@cbi18n"{
+ 
+ ...
+    return "Hello + #getResource( 'myResource' )#";
+ ...
+}
 ```
 
 Once you have access to those objects you can leverage their methods to your ❤️'s content.
